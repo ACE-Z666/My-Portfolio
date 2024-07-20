@@ -1,7 +1,7 @@
 import React from 'react'
 import {useMediaQuery} from 'react-responsive'
 import { useGSAP } from '@gsap/react';
-import { animateWithGsap } from '../../../3js project/apple-clone/apple-iphone/apple/src/utils/anime'
+import { animateWithGsap } from '../utils/anime';
 
 
 

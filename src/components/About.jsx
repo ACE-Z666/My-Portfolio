@@ -1,6 +1,6 @@
 import { useGSAP } from '@gsap/react'
 import React from 'react'
-import { animateWithGsap } from '../../../3js project/apple-clone/apple-iphone/apple/src/utils/anime'
+import { animateWithGsap } from '../utils/anime'
 
 const About = () => {
 
