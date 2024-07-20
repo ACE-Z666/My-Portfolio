@@ -1,0 +1,121 @@
+import React from 'react'
+import {useMediaQuery} from 'react-responsive'
+import { useGSAP } from '@gsap/react';
+import { animateWithGsap } from '../../../3js project/apple-clone/apple-iphone/apple/src/utils/anime'
+
+
+
+
+
+const Desktop = () => {
+
+    useGSAP (() => {
+        animateWithGsap( '#title', {
+          opacity: 1,
+          y: 0,
+          duration: 0.5,
+          ease: 'power2.inOut'
+    
+        })    
+
+        animateWithGsap('#my-pic', {
+            scale: 1, opacity: 1, duration: 1, ease: 'power1'} ,{scrub: 5.5 })
+      
+
+        animateWithGsap('#about-text', {y: 0, 
+            opacity: 1,
+            ease: 'ease-in', duration: 1,
+        })
+    
+      }, [])
+     
+    return (
+
+        <div className='bg-[#0b0b0b]'>
+    
+    <div className='h-full flex flex-col justify-start items-start content-layer mx-48 '>
+     <h1 id='title' className='section-heading text-gray-200 sm:pb-12 sm:pt-20 pt-16'>Projects</h1>
+        <div className='flex flex-row justify-start items-center pb-32'>
+            <div className=''>
+                 <p id='about-text' style={{ lineHeight: '1.7' }} className=' pr-20 content-heading pb-8 font-josefinsans overflow-hidden about-text sm:text-xl sm:scale-100 text-0.5xl '>
+                 This project is a clone of the iPhone page from Apple, showcasing a detailed and visually appealing design using Three.js and modern web development techniques. It replicates the smooth transitions, animations, and high-quality visuals of the original page.
+                 <br /> Link: <a href="https://iphone-3js-project.vercel.app/" className='text-blue-500'>iphone-3js-project.vercel.app</a>
+                 </p>
+            </div>
+            <div>
+            <img src="./public/assets/i-c-p.png" alt="Reload Page"  id="my-pic" className=' rounded-2xl w-[1100px] about-img' />
+            </div>
+
+        </div>
+        <div className='flex flex-row justify-start items-center pb-32'>
+            <div>
+            <img src="./public/assets/s-b-s.png" alt="Reload Page"  id="my-pic" className=' rounded-2xl w-[1100px] about-img ' />
+            </div>
+            <div>
+            <p id='about-text' style={{ lineHeight: '1.7' }} className=' pl-24 content-heading pb-8 mr-0 font-josefinsans overflow-hidden about-text sm:text-xl sm:scale-100 text-0.5xl '>
+            Eclipso is a comprehensive web hosting platform designed to provide users with an efficient, reliable, and easy-to-use interface for managing their websites. This project focuses on delivering top-notch performance and scalability.
+            <br /> Link: <a href="https://eclipso.vercel.app/" className='text-blue-500'>eclipso.vercel.app</a>
+                 </p>
+
+            </div>
+
+        </div>
+        <div className='flex flex-row justify-start items-center pb-32 mb-48'>
+            <div>
+                  <p id='about-text' style={{ lineHeight: '1.7' }} className=' pr-20 content-heading pb-8 mr-0 font-josefinsans overflow-hidden about-text sm:text-xl sm:scale-100 text-0.5xl'>t is a project done on HTML and spline where i created a 3D presentation of a Youtube Educator "Anna Thomas " as a token of appreciation for participating in a talk session conducted by IEDC Bootcamp CEC</p>
+            </div>
+            <div>
+            <img src="./public/assets/t-s.png" alt="Reload Page"  id="my-pic" className='rounded-2xl  w-[1000px] about-img ' />
+            </div>
+
+        </div>
+      
+    </div>
+    </div>
+  );
+};
+
+
+  const Mobile = () => {
+
+    return (
+
+    <div className='h-full mx-48 flex flex-col'>
+        <div className='flex flex-col justify-end items-end'>
+            <div>
+                    Image 1
+            </div>
+            <div>
+                Project about 1
+            </div>
+
+        </div>
+        <div className='flex flex-col justify-end items-end'>   
+            <div>
+                    Image 2
+            </div>
+            <div>
+                Project about 2
+            </div>
+
+        </div>
+        <div className='flex flex-col justify-end items-end'>
+            <div>
+                    Image 3
+            </div>
+            <div>
+                Project about 3
+            </div>
+
+        </div>
+      
+    </div>
+  );
+};
+
+const Projects = () => {
+
+    const isDesktop = useMediaQuery({minWidth: 768})
+    return isDesktop ? <Desktop /> : <Mobile />;}
+
+export default Projects
