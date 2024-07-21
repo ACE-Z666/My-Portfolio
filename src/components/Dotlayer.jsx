@@ -96,7 +96,7 @@ const DotLayer = () => {
 
   return (
     <div ref={dotContainerRef} className="dot-layer absolute inset-0 z-10 pointer-events-none">
-      {Array.from({ length: 30 }).map((_, index) => {
+      {Array.from({ length: 60 }).map((_, index) => { // Increase the number of dots here
         let top, left;
         do {
           top = Math.random() * 100;

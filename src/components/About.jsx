@@ -14,7 +14,7 @@ const About = () => {
     })
 
     animateWithGsap('#my-pic', {
-      scale: 1, opacity: 1, duration: 1, ease: 'ease-in'} ,{scrub: true})
+      scale: 1, opacity: 1, duration: 1, ease: 'ease-in'} ,{scrub: 5.5})
 
       animateWithGsap('#about-text1', {y: 0, 
         opacity: 1,
