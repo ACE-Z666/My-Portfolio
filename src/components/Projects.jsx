@@ -54,13 +54,13 @@ const Desktop = () => {
                  </p>
             </div>
             <div>
-            <img src="./public/assets/i-c-p.png" alt="Reload Page"  id="my-pic" className=' rounded-2xl w-[1100px] about-img' />
+            <img src="./assets/i-c-p.png" alt="Reload Page"  id="my-pic" className=' rounded-2xl w-[1100px] about-img' />
             </div>
 
         </div>
         <div className='flex flex-row justify-start items-center pb-32'>
             <div>
-            <img src="./public/assets/s-b-s.png" alt="Reload Page"  id="my-pic" className=' rounded-2xl w-[1100px] about-img ' />
+            <img src="./assets/s-b-s.png" alt="Reload Page"  id="my-pic" className=' rounded-2xl w-[1100px] about-img ' />
             </div>
             <div>
             <p id='projects1-text' style={{ lineHeight: '1.7' }} className=' pl-24 content-heading pb-8 mr-0 font-josefinsans overflow-hidden projects1-text sm:text-xl sm:scale-100 text-0.5xl '>
@@ -76,7 +76,7 @@ const Desktop = () => {
                   <p id='projects3-text' style={{ lineHeight: '1.7' }} className=' pr-20 content-heading pb-8 mr-0 font-josefinsans overflow-hidden projects2-text sm:text-xl sm:scale-100 text-0.5xl'>t is a project done on HTML and spline where i created a 3D presentation of a Youtube Educator "Anna Thomas " as a token of appreciation for participating in a talk session conducted by IEDC Bootcamp CEC</p>
             </div>
             <div>
-            <img src="./public/assets/t-s.png" alt="Reload Page"  id="my-pic" className='rounded-2xl  w-[1000px] about-img ' />
+            <img src="./assets/t-s.png" alt="Reload Page"  id="my-pic" className='rounded-2xl  w-[1000px] about-img ' />
             </div>
 
         </div>
