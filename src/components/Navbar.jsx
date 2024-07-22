@@ -35,7 +35,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`navbar fixed w-full z-50 justify-center rounded-b-lg rounded-l-lg bg-black bg-opacity-80 backdrop-blur-60 transition-all duration-300 py-5 ${shrink ? 'sm:h-[vh] sm:mt-0' : 'sm:h-[10vh] sm:mt-16'}`}>
+    <nav className={`navbar fixed w-screen z-50 justify-center rounded-b-lg rounded-l-lg bg-black bg-opacity-80 backdrop-blur-60 transition-all duration-300 py-5 ${shrink ? 'sm:h-[vh] sm:mt-0' : 'sm:h-[10vh] sm:mt-16'}`}>
       <div className='content-layer text-gray-400 flex sm:justify-between sm:scale-100 scale-90 sm:mx-48'>
         <Link  to="Hero" spy={true} smooth={true} offset={-50}><h1 className='text-xl font-nycd text-white hover:text-gray-400 transition-all '>Abhijith JN</h1></Link>
         <ul className="hidden md:flex justify-center gap-10">
