@@ -41,7 +41,7 @@ const Desktop = () => {
      
     return (
 
-        <div className='bg-[#0b0b0b]'>
+        <div id='Projects' className='bg-[#0b0b0b]'>
     
     <div className='h-full flex flex-col justify-start items-start content-layer mx-48 '>
      <h1 id='title' className='projects2-text text-gray-200 sm:pt-20 pt-1 lg:text-8xl md:text-5xl text-5xl lg:mb-0 mb-12 font-josefinsans'>Projects</h1>
@@ -124,7 +124,7 @@ const Desktop = () => {
 
         return (
 
-            <div className="bg-[#0b0b0b]">
+            <div className="bg-[#0b0b0b]" id='Projects'>
             <div className="flex flex-col justify-start items-center content-layer mx-4">
               <h1 id="title" className="projects2-text text-gray-200 pt-10 text-3xl mb-12 font-josefinsans">
                Main Projects
@@ -154,7 +154,7 @@ const Desktop = () => {
                 </div>
               </div>
       
-              <div className="flex flex-col justify-start items-center pb-8 mb-48">
+              <div className="flex flex-col justify-start items-center pb-8 mb-8">
                 <div className="w-full">
                   <img src="./assets/t-s.png" alt="Reload Page" id="my-pic" className="rounded-2xl w-full about-img" />
                 </div>
