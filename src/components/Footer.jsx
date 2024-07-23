@@ -48,12 +48,12 @@ const Desktop = () => {
 
 const Mobile = () => {
   return (
-    <div  className='flex flex-col mx-6 w-screen' id='Footer'>
-    <div className='bg-[#000000] h-full'>
+    <div  className='flex flex-col w-screen' id='Footer'>
+    <div className='bg-[#000000] h-full px-6'>
     <div className='flex flex-col justify-center items-center border-t-2 border-gray-600 '>
       <div className='mt-8 justify-center items-center'>
         <h1 className='text-gray-400 font-nycd text-2xl text-center'>Abhijith JN</h1>
-        <p className='text-gray-400 text-xs mt-4 text-center' style={{ lineHeight: '1.7' }}>Dedicated to crafting intuitive web experiences that are both visually appealing and highly functional, while continually exploring the intersection of cutting-edge technology and innovative design to create impactful digital solutions.</p>
+        <p className='text-gray-400 text-xs mt-4 text-center projects4-text px-12' style={{ lineHeight: '1.7' }}>Dedicated to crafting intuitive web experiences that are both visually appealing and highly functional, while continually exploring the intersection of cutting-edge technology and innovative design to create impactful digital solutions.</p>
         <div className='flex gap-8 justify-center mt-4 mb-3'>
           <a href="https://twitter.com/AbhijithJN96905?t=Ta5OpvOK7MBetzXmlABGcw&s=09"><FaXTwitter size={25} className='w-[20px] opacity-80 sm:w-[30px] hover:opacity-70' /></a>
         <a href="https://github.com/ACE-Z666"><FaGithub size={25} className='w-[20px] sm:w-[30px] opacity-80 hover:opacity-70' /></a>

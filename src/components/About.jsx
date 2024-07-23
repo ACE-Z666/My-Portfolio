@@ -59,7 +59,7 @@ const Mobile = () => {
   useGSAP (() => {
     animateWithGsap( '#title1', {
       opacity: 1,
-      y: 0,
+      x: 0,
       duration: 0.5,
       ease: 'power2.inOut'
 
@@ -79,16 +79,16 @@ const Mobile = () => {
   
   return (
     
-    <div className=' h-full w-screen about-section mx-6 pr-0' id='About'>
-      <h1 id='title1' className='section-heading text-gray-200  pt-20 '>About Myself</h1>
-      <div className='flex md:flex-row flex-col justify-center items-center content-layer '>
+    <div className=' flex flex-col justify-center items-center h-full w-screen about-section mx-6 pr-0' id='About'>
+      <h1 id='title1' className='projects2-text text-gray-200 pt-10 text-3xl font-josefinsans mb-12 mr-16'>About Myself</h1>
+      <div className='flex flex-col justify-center items-center content-layer '>
       <div className=''>
-        <img src="./assets/my-pic.jpg" alt="Reload Page"  id="my-pic0" className=' overflow-hidden w-1/2 about-img rounded-2xl mb-16' />            
+        <img src="./assets/my-pic.jpg" alt="Reload Page"  id="my-pic0" className=' ml-8 overflow-hidden w-3/4 about-img rounded-3xl mb-16'/>            
           </div>       
-        <div className='text-white sm:pb-12  text-.5xl overflow-hidden scale h-full pb-16 '>
-<p id='about-text1' className='content-heading pb-8 mr-0 font-josefinsans overflow-hidden about-text sm:scale-100 text-0.5xl' style={{ lineHeight: '1.7' }}>I'm Abhijith J Nair, currently pursuing a Bachelor's in Computer Science and Engineering at Chengannur's College of Engineering. My passion lies at the front-end development, UI/UX design, and hardware analysis.
+        <div className='text-white sm:pb-12  text-.5xl overflow-hidden scale h-full pb-16 pr-12'>
+<p id='about-text1' className='content-heading pb-8 mr-0 font-josefinsans overflow-hidden projects3-text text-base sm:scale-100 text-0.5xl text-center' style={{ lineHeight: '1.7' }}>I'm Abhijith J Nair, currently pursuing a Bachelor's in Computer Science and Engineering at Chengannur's College of Engineering. My passion lies at the front-end development, UI/UX design, and hardware analysis.
 </p>
-<p id='about-text1' className='content-heading mr-0 font-josefinsans overflow-hidden  about-text sm:scale-100 text-0.5xl' style={{ lineHeight: '1.7' }}>I am capable of  facilitating effective communication across diverse teams and projects. My goal is to continue exploring new technologies, refining my craft, and contributing meaningfully to the ever-evolving world of software development and design. </p>
+<p id='about-text1' className='content-heading mr-0 font-josefinsans overflow-hidden projects3-text text-base sm:scale-100 text-0.5xl text-center' style={{ lineHeight: '1.7' }}>I am capable of  facilitating effective communication across diverse teams and projects. My goal is to continue exploring new technologies, refining my craft, and contributing meaningfully to the ever-evolving world of software development and design. </p>
  </div>
         <div className='text-white items-center justify-center text-xl pl-24'>
         
