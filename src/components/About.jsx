@@ -14,7 +14,7 @@ const Desktop = () => {
 
     })
 
-    animateWithGsap('#my-pic', {
+    animateWithGsap('#my-pic0', {
       scale: 1, opacity: 1, duration: 1, ease: 'ease-in'} ,{scrub: 5.5})
 
       animateWithGsap('#about-text1', {y: 0, 
@@ -39,7 +39,7 @@ const Desktop = () => {
  </div>
         <div className='text-white sm:pt-20 sm:pb-12 items-center justify-center text-xl pl-24'>
         <div className='flex overflow-hidden'>
-        <img src="./assets/my-pic.jpg" alt="Reload Page"  id="my-pic" className=' h-full sm:w-[1500px] about-img rounded-3xl' />
+        <img src="./assets/my-pic.jpg" alt="Reload Page"  id="my-pic0" className=' h-full sm:w-[1500px] about-img' />
         
           
           </div>       

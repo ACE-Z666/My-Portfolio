@@ -92,7 +92,7 @@ canvas {
   }
 
   .about-img {
-    @apply  scale-110 overflow-hidden opacity-0 
+    @apply  scale-110 overflow-hidden opacity-0 rounded-3xl 
   }
 
   .feature-video-container {
