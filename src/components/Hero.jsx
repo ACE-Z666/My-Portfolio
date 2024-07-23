@@ -19,7 +19,7 @@ const Desktop = () => {
   
   return (
 
-    <div  className='h-screen sm:mx-48 mx-6' id='Hero'>
+    <div  className='h-screen w-screen sm:mx-48' id='Hero'>
       <DotLayer></DotLayer>
       <div className="flex justify-start items-start h-full pb-96">
         <div className="text-start max-w-3xl mt-72 justify-center">
@@ -48,7 +48,7 @@ const Mobile = () => {
 
 
   return (
-    <div  className='h-screen sm:mx-48 mx-6 w-screen' id='Hero'>
+    <div  className='h-screen sm:mx-48 w-screen' id='Hero'>
     <DotLayer></DotLayer>
     <div className="flex justify-center items-center h-full pb-96">
       <div className="text-center max-w-3xl mt-auto">

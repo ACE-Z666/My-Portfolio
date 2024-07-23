@@ -10,7 +10,7 @@ const Desktop = () => {
     <div className='bg-[#000000] h-[25vh]'>
     <div className='flex flex-row justify-between items-start mx-48 border-t-2 border-gray-600'>
       <div className='mt-8'>
-        <h1 className='text-gray-400 font-montserrat text-3xl'>Abhijith J Nair</h1>
+        <h1 className='text-gray-400 font-nycd text-3xl'>Abhijith JN</h1>
         <p className='text-gray-400 text-xs mt-6' style={{ lineHeight: '1.7' }}>Dedicated to crafting intuitive web experiences that are both visually appealing and highly functional,<br /> while continually exploring the intersection of cutting-edge technology and innovative design to create <br /> impactful digital solutions.</p>
         <div className='flex gap-8 justify-start mt-4'>
           <a href="https://twitter.com/AbhijithJN96905?t=Ta5OpvOK7MBetzXmlABGcw&s=09"><FaXTwitter size={25} className='w-[20px] opacity-80 sm:w-[30px] hover:opacity-70' /></a>
@@ -52,7 +52,7 @@ const Mobile = () => {
     <div className='bg-[#000000] h-full'>
     <div className='flex flex-col justify-center items-center border-t-2 border-gray-600 '>
       <div className='mt-8 justify-center items-center'>
-        <h1 className='text-gray-400 font-montserrat text-2xl text-center'>Abhijith J Nair</h1>
+        <h1 className='text-gray-400 font-nycd text-2xl text-center'>Abhijith JN</h1>
         <p className='text-gray-400 text-xs mt-4 text-center' style={{ lineHeight: '1.7' }}>Dedicated to crafting intuitive web experiences that are both visually appealing and highly functional, while continually exploring the intersection of cutting-edge technology and innovative design to create impactful digital solutions.</p>
         <div className='flex gap-8 justify-center mt-4 mb-3'>
           <a href="https://twitter.com/AbhijithJN96905?t=Ta5OpvOK7MBetzXmlABGcw&s=09"><FaXTwitter size={25} className='w-[20px] opacity-80 sm:w-[30px] hover:opacity-70' /></a>

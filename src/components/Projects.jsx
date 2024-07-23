@@ -124,7 +124,7 @@ const Desktop = () => {
 
         return (
 
-            <div className="bg-[#0b0b0b]" id='Projects'>
+            <div className="bg-[#0b0b0b] w-screen" id='Projects'>
             <div className="flex flex-col justify-start items-center content-layer mx-4">
               <h1 id="title" className="projects2-text text-gray-200 pt-10 text-3xl mb-12 font-josefinsans">
                Main Projects

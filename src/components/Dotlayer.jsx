@@ -109,7 +109,7 @@ const DotLayer = () => {
         return (
           <div
             key={index}
-            className="dot absolute"
+            className="dot absolute w-screen"
             style={{
               top: `${top}%`,
               left: `${left}%`,
