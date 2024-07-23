@@ -48,10 +48,10 @@ const Mobile = () => {
 
 
   return (
-    <div  className='h-screen sm:mx-48 w-screen' id='Hero'>
+    <div  className='h-screen w-screen' id='Hero'>
     <DotLayer></DotLayer>
-    <div className="flex justify-center items-center w-full h-full pb-96">
-      <div className="text-center max-w-3xl mt-auto">
+    <div className="flex justify-center items-center h-full pb-96">
+      <div className="text-center mt-auto">
       <h1 id='hero' className="text-5xl sm:text-8xl font font-thin text-white sm:mb-10 font-montserrat opacity-0 mb-8">Abhijith J Nair</h1>
         <div className=' items-center opacity-0 translate-y-20 pt-3' id='dde' >
           <p className="sm:text-2xl text-0.5xl text-gray-400 font-josefinsans sm:mb-8 sm:scale-100 scale:75" style={{ lineHeight: '1.7' }}>Student @ College of Engineering Chengannur, <br />Video Editor @ IEDC Bootcamp CEC, <br /> P.R.O @ PRODDEC CEC, <br /> Passionate in  <ReactTyped strings={['Web-Development', 'Cybersecurity', 'AI and ML', 'Software-Development','UI/UX Designing']} typeSpeed={80} backSpeed={100} loop className='sm:text-2xl text-0.5xl text-white font-josefinsans sm:scale-100 scale:75 pr-6'/> </p>

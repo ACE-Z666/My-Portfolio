@@ -48,7 +48,7 @@ const Desktop = () => {
 
 const Mobile = () => {
   return (
-    <div  className='flex flex-col mx-6' id='Footer'>
+    <div  className='flex flex-col mx-6 w-screen ' id='Footer'>
     <div className='bg-[#000000] h-full'>
     <div className='flex flex-col justify-center items-center border-t-2 border-gray-600 '>
       <div className='mt-8 justify-center items-center'>
@@ -78,7 +78,7 @@ const Mobile = () => {
     </div>
       
     </div>
-    <div className='bg-black h-[4vh]'>
+    <div className='bg-black h-[4vh] w-screen'>
        
     <div className=' text-center mt-8 h-[4vh] '>
     <p className='text-gray-400 text-xs'>© 2024 Abhijith J Nair. All rights reserved.</p> </div>
