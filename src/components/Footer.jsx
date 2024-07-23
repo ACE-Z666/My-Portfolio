@@ -48,8 +48,8 @@ const Desktop = () => {
 
 const Mobile = () => {
   return (
-    <div  className='flex flex-col mx-6 w-screen ' id='Footer'>
-    <div className='bg-[#000000] h-full'>
+    <div  className='flex flex-col mx-6 w-screen' id='Footer'>
+    <div className=' bg-gray-500 h-full'>
     <div className='flex flex-col justify-center items-center border-t-2 border-gray-600 '>
       <div className='mt-8 justify-center items-center'>
         <h1 className='text-gray-400 font-nycd text-2xl text-center'>Abhijith JN</h1>

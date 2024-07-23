@@ -81,9 +81,9 @@ const Mobile = () => {
     
     <div className=' h-full w-screen about-section mx-6 pr-0' id='About'>
       <h1 id='title1' className='section-heading text-gray-200  pt-20 '>About Myself</h1>
-      <div className='flex md:flex-row flex-col justify-center items-center content-layer'>
-      <div className='flex'>
-        <img src="./assets/my-pic.jpg" alt="Reload Page"  id="my-pic0" size={50} className=' overflow-hidden w-screen about-img rounded-2xl mb-16' />            
+      <div className='flex md:flex-row flex-col justify-center items-center content-layer '>
+      <div className=''>
+        <img src="./assets/my-pic.jpg" alt="Reload Page"  id="my-pic0" className=' overflow-hidden w-1/2 about-img rounded-2xl mb-16' />            
           </div>       
         <div className='text-white sm:pb-12  text-.5xl scale w-screen h-full pb-16 '>
 <p id='about-text1' className='content-heading pb-8 mr-0 font-josefinsans overflow-hidden about-text sm:scale-100 text-0.5xl' style={{ lineHeight: '1.7' }}>I'm Abhijith J Nair, currently pursuing a Bachelor's in Computer Science and Engineering at Chengannur's College of Engineering. My passion lies at the front-end development, UI/UX design, and hardware analysis.
