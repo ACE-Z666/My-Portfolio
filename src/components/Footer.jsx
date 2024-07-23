@@ -78,7 +78,7 @@ const Mobile = () => {
     </div>
       
     </div>
-    <div className='bg-black h-[4vh] w-2/3'>
+    <div className='bg-black h-[4vh]'>
        
     <div className=' text-center mt-8 h-[4vh]'>
     <p className='text-gray-400 text-xs'>© 2024 Abhijith J Nair. All rights reserved.</p> </div>
