@@ -50,7 +50,7 @@ const Mobile = () => {
   return (
     <div  className='h-screen sm:mx-48 w-screen' id='Hero'>
     <DotLayer></DotLayer>
-    <div className="flex justify-center items-center h-full pb-96">
+    <div className="flex justify-center items-center w-full h-full pb-96">
       <div className="text-center max-w-3xl mt-auto">
       <h1 id='hero' className="text-5xl sm:text-8xl font font-thin text-white sm:mb-10 font-montserrat opacity-0 mb-8">Abhijith J Nair</h1>
         <div className=' items-center opacity-0 translate-y-20 pt-3' id='dde' >
