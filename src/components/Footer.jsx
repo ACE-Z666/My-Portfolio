@@ -27,7 +27,7 @@ const Desktop = () => {
 
       <div className='space-r-4 mt-8'>
         <h1 className='text-gray-400 font-montserrat text-3xl'>Other Links</h1>
-        <p className='text-gray-400 text-xs mt-6 underline' style={{ lineHeight: '1.9' }}> College Of Engineering Chengannur <br /> IEDC Bootcamp CEC <br /> PRODDEC CEC </p>
+        <p className='text-gray-400 text-xs mt-6 underline' style={{ lineHeight: '1.9' }}> <a href="https://ceconline.edu/">  College Of Engineering Chengannur </a><br /> <a href="https://www.iedcbootcampcec.in/">IEDC Bootcamp CEC</a> <br /> <a href="https://cec-proddec.web.app/">PRODDEC CEC</a> </p>
 
       </div>
 
@@ -69,7 +69,7 @@ const Mobile = () => {
 
       <div className='space-r-4 mt-8'>
         <h1 className='text-gray-400 font-montserrat text-2xl text-center'>Other Links</h1>
-        <p className='text-gray-400 text-xs mt-3 underline text-center' style={{ lineHeight: '1.9' }}> College Of Engineering Chengannur <br /> IEDC Bootcamp CEC <br /> PRODDEC CEC </p>
+        <p className='text-gray-400 text-xs mt-3 underline text-center' style={{ lineHeight: '1.9' }}> <a href="https://ceconline.edu/">  College Of Engineering Chengannur </a><br /> <a href="https://www.iedcbootcampcec.in/">IEDC Bootcamp CEC</a> <br /> <a href="https://cec-proddec.web.app/">PRODDEC CEC</a>  </p>
 
       </div>
 
