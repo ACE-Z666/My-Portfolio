@@ -8,7 +8,7 @@ const App = () => {
 
   return (
 
-      <main className='app bg-black w-screen' >
+      <main className='app bg-black w-full' >
         <Navbar></Navbar> 
         <Hero></Hero>
         <Projects></Projects>

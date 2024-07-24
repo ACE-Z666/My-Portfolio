@@ -210,3 +210,24 @@ canvas {
  .content-heading{
   position: relative;
  }
+
+
+ ::-webkit-scrollbar {
+  width: 7px;
+  opacity: 50%;
+
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d6d6d6;
+  border-radius: 7px;
+  backdrop-filter: blur(100px);
+  
+}
+::-webkit ::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
